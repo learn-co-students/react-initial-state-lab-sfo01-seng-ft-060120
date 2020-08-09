@@ -1,9 +1,9 @@
 // your ImageSlider code here!
 
 import React, { Component } from 'react';
-// import Bomb from './Bomb';
 
-class ImageSlider extends Component{
+
+export default class ImageSlider extends Component{
     constructor(){
         super()
         this.state ={
@@ -11,8 +11,10 @@ class ImageSlider extends Component{
         }
     }
 
+
     render(){
         return (
+            
             `I am on slide ${this.state.currentSlideIndex}`
         )
     }

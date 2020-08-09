@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 // import ImageSlider from './ImageSlider';
 
-class Bomb extends React.Component{
+class Bomb extends Component{
     render(){
         return(
            <Bomb intialCount='secondsLeft' /> 

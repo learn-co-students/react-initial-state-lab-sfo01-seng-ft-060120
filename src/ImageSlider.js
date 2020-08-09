@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 // import Bomb from './Bomb';
 
-class ImageSlider extends React.Component{
+class ImageSlider extends Component{
     constructor(){
         super()
         this.state ={
